@@ -1,0 +1,105 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(https://mebincdn.themebin.com/1664271580523.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+#logo{
+    z-index: 2;
+    width: 16vw;
+    
+}
+
+#logo-svg{
+    margin-left: 3%;
+    display: inline-block;
+    line-height: 90px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+
+body::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000077; 
+    z-index: 1;
+}
+
+#login{
+    height: 80vh;
+    z-index: 99;
+    margin-top: 10vh;
+    width: 30vw;
+}
+
+#background{
+    padding: 50px;
+    background-color: #000000bd;
+}
+
+input{
+    height: 5vh;
+    background-color: #343434;
+    border-bottom: 3px solid #ea7b19;
+    transition-duration: 90ms;
+    font-size: 13pt;
+    border-radius: 14px;
+}
+
+input:focus:not(#check){
+    transition-duration: 90ms;
+    outline: 2px solid #ea7b19;
+}
+
+button{
+    height: 7vh;
+    background-color: #ff0000;
+    transition-duration: 200ms;
+}
+
+button:hover{
+    background-color: #860000;
+    color: #b2b2b2;
+    transition-duration: 200ms;
+}
+
+#check{
+    width: 18px;
+}
+
+p{
+    color: #808080;
+}
+
+#ajuda{
+    color: #989898;
+    text-decoration: none;
+    transition-duration: 200ms;
+}
+
+#ajuda:hover{
+    transition-duration: 200ms;
+    color: #dedede;
+}
+
+.texto-laranja{
+    font-size: 11pt;
+    color: #ea7b19;
+}
