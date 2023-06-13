@@ -17,19 +17,27 @@ body{
 }
 
 #logo{
-    z-index: 2;
-    width: 16vw;
+    height: 95px;
+    width: 200px;
+    vertical-align: middle;
+    padding-top: 15px;
+    padding-right: 10px;
     
 }
 
 #logo-svg{
     margin-left: 3%;
-    display: inline-block;
+    display: flex;
     line-height: 90px;
     text-decoration: none;
     vertical-align: middle;
 }
 
+#login{
+    padding: 60px 68px 0px;
+    padding-top: 4px;
+    border-radius: 85px;
+}
 
 body::before{
     content: "";
